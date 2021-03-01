@@ -1,0 +1,29 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray; }
+
+@media screen and (min-width: 600px) {
+  .card {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 calc(50% - 2rem);
+        -ms-flex: 1 1 calc(50% - 2rem);
+            flex: 1 1 calc(50% - 2rem); } }
+@media screen and (min-width: 900px) {
+  .card {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 calc(33% - 2rem);
+        -ms-flex: 1 1 calc(33% - 2rem);
+            flex: 1 1 calc(33% - 2rem); } }
